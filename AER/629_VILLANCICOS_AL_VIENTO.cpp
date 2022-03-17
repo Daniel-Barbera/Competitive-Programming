@@ -10,19 +10,19 @@ using namespace std;
     */
 
 int main() {
-  	ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
-  
+    ios_base::sync_with_stdio(false); // quitando esto va más lento
+
     int numCasas;
     int musica;
     int musicaOidaPorOtros;
     int izquierda, derecha, alcanceSonido, distanciaExtremos;
+
     vector<int> casas;
-    casas.resize(500005, 0);
-    while (cin >> numCasas && numCasas) {
+    while (scanf("%d", &numCasas) && numCasas) {
+        casas.resize(500005);
         musicaOidaPorOtros = 0;
         for (int i = 0; i < numCasas; ++i) {
-            cin >> casas[i];
+            scanf("%d", &casas[i]);
         }
 
         izquierda = derecha = numCasas - 1;
@@ -37,7 +37,7 @@ int main() {
             --derecha;
             if (izquierda > derecha) izquierda = derecha; /* se produce al procesar muchos ceros seguidos */
         }
-        cout << musicaOidaPorOtros << '\n';
+        printf("%d\n", musicaOidaPorOtros);
         casas.clear();
     }
     return 0;

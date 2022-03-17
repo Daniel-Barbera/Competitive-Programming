@@ -60,13 +60,12 @@ int Kaprekar(int numero) {
 
 int main() {
     
-	//VAR
 	int entrada, numCasos;
 	
 	cin >> numCasos;
 	for (int i = 1; i < (numCasos + 1); ++i) {
 		cin >> entrada;
-		cout << Kaprekar(entrada) << endl;
+		cout << Kaprekar(entrada) << '\n';
 	}
 	
 	return 0;  

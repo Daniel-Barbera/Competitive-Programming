@@ -1,5 +1,0 @@
-	ifstream input;
-	input.open("C:/Users/anton/Desktop/SOLUCIONES_CP/CODE_CHALLENGE/1/testInput.txt", ios::in);
-
-    ofstream output;
-    output.open("C:/Users/anton/Desktop/SOLUCIONES_CP/CODE_CHALLENGE/1/testOutput.txt", ios::out);

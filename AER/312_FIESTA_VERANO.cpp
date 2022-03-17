@@ -11,6 +11,7 @@ long long gcd(long long int a, long long int b)
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
+    
     long long int input, total;
     long long int mcd;
     while (cin >> input && input) {
