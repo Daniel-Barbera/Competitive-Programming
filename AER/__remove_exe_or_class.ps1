@@ -1,1 +1,0 @@
-Remove-Item 'C:\Users\anton\Desktop\SOLUCIONES_CP\AER\*' -Recurse -Include *.exe, *.class

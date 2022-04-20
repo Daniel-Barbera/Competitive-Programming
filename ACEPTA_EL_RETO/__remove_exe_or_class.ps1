@@ -1,0 +1,1 @@
+Remove-Item 'C:\Users\anton\Desktop\SOLUCIONES_CP\ACEPTA_EL_RETO\*' -Recurse -Include *.exe, *.class
